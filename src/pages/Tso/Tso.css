@@ -1,0 +1,16 @@
+.left-div-running_TSO{
+    padding-right: 10rem;
+}
+.main-running_Tso{
+    background: #003eaa;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.right-div-running{
+    flex: 1;
+}
