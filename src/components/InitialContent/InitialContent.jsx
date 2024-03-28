@@ -8,11 +8,9 @@ const InitialContent = ({content1,content2,content3,addImage,trepo}) => {
             <div className='left-content'>
                 <h1 className='left-content-h1'>
                     {content1}
-                    {/* AI-powered productivity for the supply chain back-office */}
                 </h1>
                 <p className='left-content-p'>
                     {content2}
-                    {/* Increasing the speed, accuracy, and efficiency of Order-to-Cash and Procure-to-Pay processes across supply chain logistics. */}
                 </p>
                 <p className='left-content-p'>
                     {content3}
@@ -20,7 +18,6 @@ const InitialContent = ({content1,content2,content3,addImage,trepo}) => {
                 {!trepo&&<Button buttonClass='nav-button' content='Find out More'/>}
             </div>
             <div className="right-content">
-                {/* <img src={Computer} alt="Computer" /> */}
                 <img src={addImage} alt="Computer" />
             </div>
         </div>

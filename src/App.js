@@ -6,7 +6,9 @@ import Tso from './pages/Tso/Tso'
 import Dso from './pages/Dso/Dso'
 import HomePage from './pages/HomePage'
 import Contact from './pages/Contact/Contact';
+import Arboriculture from './pages/Arboriculture/Arboriculture';
 function App() {
+  
   return (
     <div className="App">
       <Routes>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/Tso" element={<Tso />} />
         <Route path="/Dso" element={<Dso />} />
+        <Route path="/Arboriculture" element={<Arboriculture />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

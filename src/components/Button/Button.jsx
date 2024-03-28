@@ -1,8 +1,13 @@
 import React from 'react'
 import './Button.css'
-const Button = ({buttonClass,content}) => {
+import { Link } from 'react-router-dom'
+const Button = ({ buttonClass, content, forwardContent, onclickProp }) => {
   return (
-    <button type='button' className={buttonClass}>{content}</button>
+
+    <Link style={{ textDecoration: 'none', color: 'inherit' }} to={forwardContent}>
+      <button onClick={onclickProp}  type='button' className={buttonClass}>{content}</button>
+    </Link>
+
   )
 }
 

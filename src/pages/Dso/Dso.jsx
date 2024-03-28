@@ -12,35 +12,43 @@ const Dso = () => {
   return (
     <div className='main_Dso'>
       <Navbar />
-      <InitialContent content1={'trePO'} content2={'Advanced artificial intelligence to automate procure-to-pay.'} content3={`trePO uses advanced A.I. and M.L. to digitise and intelligently automate up to 90% of the P2P process.
+      <InitialContent content1={'DSO'} content2={'Advanced artificial intelligence to automate procure-to-pay.'} content3={`DSO uses advanced A.I. and M.L. to digitise and intelligently automate up to 90% of the P2P process.
       
-      By reducing exceptions and automating complex and time consuming 3-way PO matches, trePO saves you time and improves your time-to-process.`} addImage={trepo} trepo={true} />
-
-      <div className='main-Australia'>
-        <div className='left-div-Fraitey'>
-          <h1 style={{ padding: '1rem 8rem', fontSize: '30px' }}
-            className='left-content-fraitey'>
-            Reduce manual intervention whilst rapidly improving time-to-process and time-to-pay cycles, down to a matter of seconds!
-          </h1>
-          <Button buttonClass='nav-button' content='Find out how' />
+      By reducing exceptions and automating complex and time consuming 3-way PO matches, DSO saves you time and improves your time-to-process.`} addImage={trepo} trepo={true} />
+      <div>
+        <div className='main-Australia'>
+          <div className='left-div-Fraitey'>
+            <h1
+              className='left-content-fraitey'>
+              Reduce manual intervention whilst rapidly improving time-to-process and time-to-pay cycles, down to a matter of seconds!
+            </h1>
+            <Button buttonClass='nav-button' content='Find out how' />
+          </div>
         </div>
       </div>
-      <div className='main_efficiency_DSO'>
+      <div className='main_efficiency'>
+        {/* <img src={logo_provenio} alt="" /> */}
+        <h1>Achieve greater back-office Efficiency</h1>
         <div className="boxes">
           <div className="box1">
-            <p className='heading'>92.7%</p>
+            <p className='headingBox'>92.7%</p>
             <p>Our customers have achieved up to 92.7% automated state across their P-2-P & O-2-C processes</p>
           </div>
-          <div className="box2_DSO">
-            <p className='heading'>60s</p>
+          <div className="box2">
+            <p className='headingBox'>60s</p>
             <p>Our customers have reduced their cycle times from days, down to seconds</p>
           </div>
           <div className="box3">
-            <p className='heading'>3x</p>
+            <p className='headingBox'>3x</p>
             <p>Our customers have achieved 3x in-year Return on Investment</p>
           </div>
         </div>
       </div>
+
+
+
+
+
       <div className="ceo_image">
         <div className="left_ceo_image">
           <img className='image_ceo' src={ceo_image} alt="" />

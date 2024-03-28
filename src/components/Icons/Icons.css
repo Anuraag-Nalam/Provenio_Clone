@@ -43,15 +43,17 @@
     width: 150px;
     margin-left: 0rem;
 }
-.explicit{
+
+.explicit {
     padding-bottom: 3rem;
 }
+
 .next-step {
     display: flex;
     flex-direction: row;
     background: #003eaa;
     color: white;
-    margin-left:10rem;
+    margin-left: 10rem;
     margin-right: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -88,6 +90,12 @@
     flex: 2;
 }
 
+@media screen and (max-width:1450px) {
+    .all-icons {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width:1300px) {
     .next-step {
         width: 100vw;
@@ -107,17 +115,22 @@
         height: 373px;
         border-radius: 20px;
     }
-    .heading{
+
+    .heading {
         padding-left: 1rem;
     }
-    .content-icon,.security-icons{
+
+    .content-icon,
+    .security-icons {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .explicit{
+
+    .explicit {
         padding-bottom: 3rem;
         /* padding-bottom: 5rem; */
     }
+
     .left_content_next_step {
         display: flex;
         flex-direction: column;
@@ -135,6 +148,12 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .heading {
+        font-size: 30px;
+        padding-left: 0;
+    }
+}
 
 @media screen and (max-width:800px) {
     .next-step {
@@ -142,16 +161,18 @@
         flex-direction: column;
         background: #003eaa;
         color: white;
-        width: 100vw;
-        /* margin: 2rem 0; */
+        /* width: 96vw; */
         height: 373px;
         border-radius: 20px;
-        /* height: 300px; */
         height: auto;
+        /* margin-left: 1rem; */
+        margin-right: 1rem;
     }
-    .explicit{
+
+    .explicit {
         padding-bottom: 3rem;
     }
+
     .left_content_next_step {
         display: flex;
         flex-direction: column;
@@ -184,8 +205,20 @@
     }
 }
 
-@media screen and (max-width:1450px) {
+@media screen and (max-width:400px) {
+    .main-icons {
+        padding-left: 2rem;
+    }
+
     .all-icons {
-        flex-wrap: wrap;
+        margin-left: 5rem;
+    }
+
+    .security-icons div {
+        font-size: 20px;
+    }
+
+    .content-icon {
+        font: size 15px;
     }
 }

@@ -3,7 +3,24 @@
     color: white;
     height: 50%;
 }
-
+/* .form_left_contact_control h2, p{
+    font-size: 18px;
+} */
+.form-group label, input{
+    font-size:18px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    border: 0.5px solid;
+}
+.form-check-label{
+    margin-top: 0;
+    padding-top: 0;
+}
+.questions_Contact{
+    font-size: 18px;
+    margin-top: 2rem;
+}
 .no_image h1 {
     width: 350px;
     height: 100px;
@@ -32,7 +49,9 @@
     width: 50%;
     font-size: 25px;
 }
-
+.form_left_contact_control h2,p{
+    line-height: 1;
+}
 .form_left {
     flex: 2;
     padding-left: 5rem;
@@ -61,7 +80,7 @@
     height: 100px;
 }
 
-.btn-primary {
+.btn-primary1 {
     width: 70px;
     height: 50px;
 }
@@ -79,10 +98,10 @@
     font-size: 20px;
 }
 
-.form-check {
+/* .form-check {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
-}
+} */
 
 @media screen and (max-width:1250px) {
     .form_left_contact_control {
@@ -120,11 +139,36 @@
 }
 
 @media screen and (max-width:600px) {
-
+    .no_image h1 {
+        text-wrap: wrap;
+        margin-left: 1rem;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+    }
     .form_right {
-        padding-left: 4rem;
+        padding-left: 0rem;
+        width: 100%;
+        padding-right: 0;
     }
     .form-row{
         font-size: 10px;
+    }
+
+    .form_contact {
+        display: flex;flex-direction: column;
+    }
+    .form-row{
+        /* display: none; */
+        width: 100%;
+    }
+    .form-control{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form_contact {
+        padding: 1rem;
     }
 }

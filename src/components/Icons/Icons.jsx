@@ -33,10 +33,10 @@ const Icons = () => {
                     </div>
                 </div>
                 {/* style={{marginLeft:'10rem'}} */}
-                
+
             </div>
-            <div className='explicit' style={{background:'white'}} >
-            <div  className='next-step'>
+            <div className='explicit' style={{ background: 'white' }} >
+                <div className='next-step'>
                     <div className='left_content_next_step'>
                         <p>Take the next step</p>
                         <p>Start transforming your back-office processes with our ethical and explainable A.I-powered solutions and products. Request a demo with a member of our friendly team.</p>
@@ -46,7 +46,7 @@ const Icons = () => {
                     </div>
                 </div>
 
-                </div>
+            </div>
 
 
         </>

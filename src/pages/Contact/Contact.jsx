@@ -2,9 +2,13 @@ import React from 'react'
 import './Contact.css'
 import Navbar from '../../components/Navbar/Navbar'
 import pink from '../Dso/pink.webp'
-import Button from '../../components/Button/Button'
 import Footer from '../../components/Footer/Footer'
+import { useRef } from 'react'
 const Contact = () => {
+    const ref = useRef(null);
+    const handleClick = () => {
+        ref.current?.scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <>
             <div className='main_contact'>
@@ -13,7 +17,7 @@ const Contact = () => {
                     <h1>Contact Us to get Started</h1>
                 </div>
                 <div className="form_contact">
-                    <div className="form_left">
+                    <div ref={ref} className="form_left">
                         <div className="form_left_contact_control">
                             <h2>Get in touch, <br /> Fill out the Form:</h2>
                             <br />
@@ -21,8 +25,7 @@ const Contact = () => {
                                 reach us here:
                                 info@provenio.ai</p>
                             <br />
-                            <p>Level 17, International Towers 3, Barangaroo Avenue, Barangaroo,
-                                Sydney,</p>
+                            <p>G10 Atlas Building European Space Agency: BIC Campus, Fermi Avenue, Harwell, Didcot OX11 0QX, UK</p>
                             <br /><p>02 8667 5398</p>
                         </div>
                     </div>
@@ -35,7 +38,7 @@ const Contact = () => {
                                 </div>
                                 <div className="form-group col-md-6">
                                     <label htmlFor="inputPassword4">Last Name</label>
-                                    <input type="password" className="form-control" id="inputPassword4" placeholder="Last Name" />
+                                    <input type="text" className="form-control" id="inputPassword4" placeholder="Last Name" />
                                 </div>
                             </div>
                             <div className="form-row">
@@ -91,17 +94,18 @@ const Contact = () => {
                                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
                                 </div>
                             </div>
-                            <button style={{marginTop:'1rem'}} type="submit" className="btn btn-primary">Save</button>
+                            <button style={{ marginTop: '1rem' }} type="submit" className="btn btn-primary1">Save</button>
                         </form>
                     </div>
                 </div>
 
-                <div className="ceo_image ceo_image_pink contact_pink">
+                <div className="ceo_image_pink contact_pink">
                     <div className="right_ceo_image_pink">
                         <div className="rightContentCeo rightContentCeo_pink">
                             <h3>Take the next step</h3>
                             <p>Start transforming your back-office processes with our ethical and explainable A.I-powered solutions and products. Request a demo with a member of our friendly team.</p>
-                            <Button buttonClassName='nav-button' content='Book a Demo' />
+                            {/* <Button buttonClass='nav-button' content='Book a Demo' /> */}
+                            <button onClick={handleClick} className='nav-button'>Book a Demo</button>
                         </div>
                     </div>
                     <div className="left_ceo_image_pink">

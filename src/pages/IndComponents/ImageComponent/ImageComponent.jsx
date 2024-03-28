@@ -35,7 +35,10 @@ const ImageComponent = () => {
                     </div>
                     {/* second column */}
                     <div className="containerImageTso">
-                        <img className="computerImageTso" id="targetImage" src={image} alt="" />
+                        <div className="computerImageAdjust">
+                            <img className="computerImageTso" id="targetImage" src={image} alt="" />
+                        </div>
+
                         {/* Bottom icons Below Image */}
                         <div className="bottom_container_icons">
                             <div className="main_container_TSO1">

@@ -7,7 +7,7 @@ const Fraitey = () => {
         <div>
             <div className='main-Australia'>
                 <div className='left-div-Fraitey'>
-                    <h1 style={{ padding: '1rem 8rem', fontSize: '30px' }}
+                    <h1 
                         className='left-content-fraitey'>
                         Fraitey automates complex freight document and image processing - giving your people an easier process to manage, saving you time and money.
                     </h1>

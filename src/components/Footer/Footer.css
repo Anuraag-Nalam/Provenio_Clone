@@ -48,7 +48,12 @@
 }
 
 
-
+.scroll-to-top {
+    scroll-behavior: smooth;
+}
+.highlight:hover{
+    color: blue;
+}
 @media screen and (max-width:950px) {
     .entire_flex {
         display: flex;
@@ -59,7 +64,10 @@
         padding-left: 2rem;
         /* width: 50%; */
     }
-
+    .Vidrona_Logo img{
+        width: 144px;
+        height: 173px;
+    }
     .image_main_footer {
         width: 192px;
         height: 78px;

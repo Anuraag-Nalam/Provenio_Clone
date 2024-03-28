@@ -1,0 +1,69 @@
+.Arbo_Image {
+    object-fit: contain;
+    width: 100%;
+}
+
+.Arbo_Main {
+    width: 100%;
+    position: relative;
+    height: 50%;
+}
+
+.Argo_Icon {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+}
+
+.Arbo_Bar {
+    display: flex;
+    background: #272727;
+    position: absolute;
+    width: 50%;
+    align-items: center;
+    height: 10%;
+    padding-top: 0.4rem;
+    color: white;
+    top: 50%;
+    left: 30%;
+    justify-content: center;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+
+.ArboDef {
+    text-align: justify;
+}
+
+.Arbo_Bar p {
+    margin-right: 2rem;
+}
+
+@media screen and (max-width:1100px) {
+    .Arbo_Bar {
+        display: none;
+    }
+
+    .Argo_Icon {
+        width: 6%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Argo_Icon {
+        width: 5%;
+        height: 8%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .Argo_Icon {
+        width: 5%;
+        height: 8%;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}

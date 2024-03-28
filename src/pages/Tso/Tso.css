@@ -14,3 +14,9 @@
 .right-div-running{
     flex: 1;
 }
+/* @media screen and (max-width:800px) {
+    .removeTopMargin{
+        padding-top: 0;
+        margin-top: 0;
+    }
+} */

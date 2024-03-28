@@ -32,14 +32,13 @@
     align-items: center;
     width: 100%;
 }
-
 .light_background p {
     color: white;
     font-size: 40px;
     letter-spacing: 1px;
     font-style: bold;
     font-weight: 700;
-    font-family: "Nexa Regular", Sans-serif;
+    /* font-family: "Nexa Regular", Sans-serif; */
     position: absolute;
     bottom: 0;
     width: 80%;
@@ -128,6 +127,7 @@
 .indicators_AboutPage {
     margin-bottom: 2rem;
 }
+
 .flex_AboutPage {
     flex-direction: column;
     font-family: "Proximo Nova Regular", Sans-serif;
@@ -170,8 +170,9 @@
         padding-bottom: 0;
         overflow: hidden;
     }
-    .right_people p{
-        text-align:justify;
+
+    .right_people p {
+        text-align: justify;
     }
 }
 
@@ -199,11 +200,14 @@
         align-items: flex-start;
         width: 100%;
     }
-    .About_carousel{
+
+    .About_carousel {
         width: 100%;
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
+    
 }
 
 
@@ -223,12 +227,14 @@
         font-size: 15px;
         flex-direction: column;
     }
+
     .left_people img {
         width: 100%;
         height: 100%;
         padding: 0;
         padding-bottom: 1rem;
     }
+
     .right_people {
         flex: 1;
         font-size: 17px;
@@ -240,12 +246,37 @@
         height: 500px;
     }
 
+    .indi {
+        margin-top: 2rem;
+    }
+
 }
-@media screen and (max-width:500px){
+/* @media screen and (max-width:800px) {
+    .removeTopMargin{
+        padding-top: 0;
+        margin-top: 0;
+    }
+} */
+.flex_AboutPage p{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:500px) {
     .flex_AboutPage {
         font-size: 18px;
     }
-    .About_carousel{
+
+    .About_carousel {
         padding-top: 3rem;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .left_people {
+        padding: 0rem;
+    }
+
+    .mainPeople_AboutPage {
+        height: 100%;
     }
 }

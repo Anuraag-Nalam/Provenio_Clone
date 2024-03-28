@@ -10,9 +10,8 @@ import Running from '../components/Running/Running';
 import Transparent from '../components/Transparent/Transparent';
 import Footer from '../components/Footer/Footer';
 import Computer from '../assets/Computer'
-// import { Route,Routes } from 'react-router-dom';
-// import AboutPage from './pages/AboutPage'
-const HomePage = () => {
+import { useState, useEffect, useRef } from 'react';
+const HomePage = () => {  
   return (
     <div style={{background:'#F0F0F4',width:'100%'}}>
       <Navbar />

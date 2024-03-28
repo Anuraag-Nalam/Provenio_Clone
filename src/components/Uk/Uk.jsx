@@ -2,10 +2,10 @@ import React from 'react';
 import './Uk.css';
 import msedl from '../../assets/msedl.jpg'
 import bses from '../../assets/bses.jpg'
-import Adani from '../../assets/Adani_Transmission-removebg-preview.png'
+import Adani from '../../assets/adani_white.webp'
 import Tata from '../../assets/Tata.jpg'
 import mpcz from '../../assets/mpcz.png'
-import kseb from '../../assets/kseb.png'
+import kseb from '../../assets/KSEB_White.webp'
 const Australia = () => {
     return (
         <div className='main-Australia'>

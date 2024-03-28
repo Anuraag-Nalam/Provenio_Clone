@@ -13,7 +13,7 @@ const Tso = () => {
     return (
         <>
             <Navbar />
-            <InitialContent content1={'Fraitey'} content2={'Complex freight validation, made easy,'} content3={'Your people, spreadsheets, documents and emails all cover the gaps in your P2P and O2C processes and systems, costing you time and money.'} addImage={Computer} />
+            <InitialContent content1={'Vsense'} content2={'Complex freight validation, made easy,'} content3={'Your people, spreadsheets, documents and emails all cover the gaps in your P2P and O2C processes and systems, costing you time and money.'} addImage={Computer} />
             <Fraitey />
             <ImageComponent />
             <div className="people">
@@ -32,7 +32,7 @@ const Tso = () => {
                 </div>
             </div>
             <div className="people">
-                <div className="right_people">
+                <div className="right_people removeTopMargin">
                     <p>
                         With a keen eye for innovation and modernisation, the trio wanted to venture into something new and unique, which led them to conceptualise an AI-powered automation platform that could be used to help modernise the workplace and free people of outdated manual processes.
                         <br /><br />
@@ -45,22 +45,22 @@ const Tso = () => {
                     <img src={peopleThree} alt="" />
                 </div>
             </div>
-
-            <div className='main-running_Tso'>
-                <div className='flex-box'>
-                    <div className='left-div-running_TSO'>
-                        <h1 className='left-content-running_Tso'>
-                            Freight Audit and Payments.
-                        </h1>
-                        <p className='running-p'>Find out how Fraitey can help you
-                            with your FAP compliance.</p>
-                            <Button buttonClass='nav-button' content='Book a demo' />
-                    </div>
-                    <div className="right-div-running">
-                        <img src={Rect} alt="" />
-                    </div>
+            <div className='main-running'>
+            <div className='flex-box'>
+                <div className='left-div-running'>
+                    <h1 className='left-content-running'>
+                        Get up and running in weeks, not months.
+                    </h1>
+                    <p className='running-p'>We know it’s important to create value, quickly. Achieve rapid time-to-value, and deliver in year savings.</p>
+                </div>
+                <div className="right-div-running">
+                    <img src={Rect} alt="" />
                 </div>
             </div>
+            <div className='button-running'>
+                <Button className='button_Component' buttonClass='nav-button' content='Book a demo' />
+            </div>
+        </div>
             <Footer />
         </>
     )
