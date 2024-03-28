@@ -1,0 +1,22 @@
+.nav-button{
+    background-image: linear-gradient(90deg, #2b6ed9 0, #56cffe 100%);
+    border-radius: 30px;
+    padding: 18px;
+    margin-top: 0;
+    font-family: Sans-serif;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    outline: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media screen and (max-width:400px) {
+    .nav-button{      
+        width: 155px;
+        font-size: 15px;
+        /* height: 25px; */
+    }
+}

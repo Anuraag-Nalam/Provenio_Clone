@@ -1,0 +1,143 @@
+.bc_Container {
+    background: #F0F0F4;
+    padding-top: 1px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.content {
+    width: 80%;
+    padding-left: 12rem;
+    align-items: center;
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+    top: 8px;
+    left: 16px;
+}
+
+.content p {
+    font-family: 'proxima-nova', sans-serif;
+    color: #0e215d;
+    font-size: 50px;
+}
+
+.content2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* ideally should work out but this is not working */
+    /* position: absolute; */
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    flex-grow: 1;
+}
+
+.contain {
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+.content2_element {
+    padding: 180px;
+    font-size: 22px;
+    color: #0e215d;
+}
+
+.background-image {
+    width: 90%;
+    position: absolute;
+}
+
+.content2_image img {
+    width: 700px;
+    margin-right: 5rem;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .content2_image img {
+        width: 100%;
+        height: 100%;
+        margin-right: 5rem;
+        /* padding: 4rem; */
+        z-index: 2;
+    }
+
+    .contain {
+        width: 100%;
+        flex-grow: 1;
+        padding-bottom: 2rem;
+    }
+
+    .content2_element {
+        font-size: 22px;
+        color: #0e215d;
+        padding: 1rem;
+        /* padding-left: 2rem; */
+        flex-grow: 2;
+        width: 2300px;
+    }
+
+    .content2 p {
+        font-size: 15px;
+    }
+
+    .content2 h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1005px) {
+    .content {
+        width: 100%;
+        padding: 2rem;
+        align-items: center;
+        padding-bottom: 10rem;
+
+    }
+
+    .content p {
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .content2 {
+        flex-wrap: wrap;
+    }
+
+    .content2_element {
+        align-items: center;
+    }
+
+    .reverseElement {
+        flex-wrap: wrap-reverse;
+    }
+
+    .content {
+        padding-bottom: 2rem;
+    }
+
+    .content p {
+        font-size: 20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .content2_image img {
+        width: 90%;
+        height: 80%;
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5rem;
+    }
+
+    .content2 {
+        width: 100%;
+    }
+} 

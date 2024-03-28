@@ -1,0 +1,48 @@
+.containerit {
+    position: relative; 
+    padding-bottom: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.top-image {
+    position: absolute; 
+    top: 0; 
+    width:50%;
+    height:auto;
+    margin-left: 3rem;
+}
+.bottom-image {
+    z-index: 1; 
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+    /* transform: scaleX(-1); */
+}
+@media screen and (max-width:800px) {
+    .containerit {
+        display: flex;
+        flex-direction: column;
+        /* position: relative;  */
+        position: static;
+        padding-bottom: 0px;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    .top-image {
+        /* position: absolute;  */
+        position: static;
+        top: 0; 
+        width:90%;
+        height:auto;
+        margin-left: 3rem;
+    }
+    .bottom-image {
+        z-index: 1; 
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        /* transform: scaleX(-1); */
+    }
+}

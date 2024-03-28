@@ -1,0 +1,138 @@
+.main_Dso {
+    /* background: #e3edff; */
+    background: white;
+}
+
+.box2_DSO {
+    background-image: linear-gradient(90deg, #0060DF 0%, #63CDF5 90%);
+    margin-right: 4rem;
+    border-radius: 15px;
+    width: 386px;
+    height: 220px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    padding-bottom: 2rem;
+    /* margin: 0; background: #F0F0F4; */
+}
+
+.right-content_DSO {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.right-content_DSO img {
+    max-width: 100%;
+    height: 1000px;
+    width: 1000px;
+    height: auto;
+}
+
+.main-content_DSO {
+    display: flex;
+    align-items: center;
+    padding: 2.1rem;
+    background-color: white;
+    color: #0e215d;
+    font-family: 'YourCustomFont', Sans-serif;
+}
+
+.ceo_image {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_ceo_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+    width: 800px;
+    height: 500px;
+    margin-left: 0;
+    background: #e3edff;
+    padding-left: 5rem;
+    border-radius: 20px;
+}
+
+.rightContentCeo {
+    padding: 3rem;
+    height: 500px;
+}
+
+.rightContentCeo_pink {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 10rem;
+    padding-left: 7rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightContentCeo h3 {
+    font-size: 35px;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.image_ceo {
+    width: 500px;
+    height: 500px;
+}
+
+.modifyBackground {
+    background: white;
+}
+
+.main_efficiency_DSO {
+    padding-top: 1px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    align-items: center;
+}
+
+.ceo_image_pink {
+    display: flex;
+    background: white;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    /* height: 800px; */
+}
+
+.right_ceo_image_pink {
+    background: #003eaa;
+    color: white;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    flex: 1;
+    /* Set the right div to occupy double the size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_ceo_image_pink {
+    flex: 1;
+    height: 500px;
+    /* Set the left div to occupy equal space */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.image_ceo_pink {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    /* object-fit: cover; This property ensures that the image covers the entire container while maintaining its aspect ratio */
+    width: 100%; /* Ensure the image width occupies the entire container */
+    height: 100%; 
+}
